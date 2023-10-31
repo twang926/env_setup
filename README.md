@@ -1,4 +1,4 @@
-# How to install
+# onboarding - machine setup
 
 ## iTerm2
 
@@ -26,7 +26,7 @@ More info here: https://github.com/robbyrussell/oh-my-zsh
     
 When the installation is done, edit `~/.zshrc` and set `ZSH_THEME="agnoster"` for the default look. Or better yet, go for Powerlevel10k.
 
-## Powerlevel9k / Powerlevel10k
+## Powerlevel9k / Powerlevel10k (not-necessary)
 
 Why Powerlevel10k? Well, because it's a drop-in replacement for Powerlevel9k, just a lot faster to render your prompt. `ls` feels fast again!
 
@@ -101,3 +101,9 @@ Installing a patched font will mess up the integrated terminal in VS Code unless
 - for other fonts you'll need to check the font name in Font Book. You can right click on them on select "Show in Finder" to get the exact name.
 
 You can also set the fontsize e.g.: `"terminal.integrated.fontSize": 14`
+
+
+## fzf search
+```
+brew install fzf then $(brew --prefix)/opt/fzf/install
+```
