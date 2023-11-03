@@ -107,3 +107,11 @@ You can also set the fontsize e.g.: `"terminal.integrated.fontSize": 14`
 ```
 brew install fzf then $(brew --prefix)/opt/fzf/install
 ```
+
+## Scala Set-up
+
+- Zulu System download
+- JAVA_HOME
+- sbt install
+- Intellij Scala Plugin
+
