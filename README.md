@@ -115,7 +115,9 @@ $(brew --prefix)/opt/fzf/install
 ## Scala Set-up
 
 - Zulu System download
-- JAVA_HOME
-- sbt install
+- Install sbt and using `cs setup`
 - Intellij Scala Plugin
+
+### For corrupted dependency in cache, try clear the cache folder: https://get-coursier.io/docs/cache
+
 
